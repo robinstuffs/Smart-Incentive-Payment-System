@@ -1,0 +1,130 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Backend - Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# Backend - Flask
+instance/
+.webassets-cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Backend - IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Frontend - Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+lerna-debug.log*
+
+# Frontend - Build
+dist/
+dist-ssr/
+*.local
+.cache/
+.parcel-cache
+.next
+out
+
+# Frontend - IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Frontend - Vite
+.vite/
+.manus-logs/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+.env.*.swp
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDE
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+.cache
+.parcel-cache
+dist
+build
+.turbo
+.next
+
+# ML Model (optional - uncomment if you want to track model)
+# smart_incentive_backend/ml_model/*.pkl
+
+# Database backups
+*.sql
+*.sql.gz
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.bak
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+elderly-incentive-frontend/.project-config.json

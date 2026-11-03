@@ -1,0 +1,15 @@
+Flask
+Flask-SQLAlchemy
+psycopg2-binary
+Flask-Migrate
+Flask-JWT-Extended
+Flask-Bcrypt
+python-dotenv
+scikit-learn
+pandas
+joblib
+
+Flask-CORS
+gunicorn
+shap
+openpyxl
